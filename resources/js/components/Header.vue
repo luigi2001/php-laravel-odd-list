@@ -3,9 +3,9 @@
         <div class="logo">
             <h1>Boolpress blog</h1>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Contatti</a></li>
-                <li><a href="">Chi siamo</a></li>
+                <li><router-link :to="{ name: 'home' }">Home</router-link></li>
+                <li><router-link :to="{ name: 'contact' }">Contatti</router-link></li>
+                <li><router-link :to="{ name: 'about' }">Chi siamo</router-link></li>
             </ul>
         </div>
     </header>
